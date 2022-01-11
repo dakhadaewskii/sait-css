@@ -1,0 +1,142 @@
+body {
+    background-color: white;
+    color: black;
+
+    font-size: 23px;
+    font-weight: normal;
+    font-family: FOOTLIGHT MT LIGHT;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: white;
+}
+
+a:visited {
+    color: gray;
+}
+
+h1 {
+    color: rgb(27, 0, 88)
+}
+
+.eagleimg {
+    height: 270px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.info p {
+    color: rgb(31, 66, 141);
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+/* .social {
+    background: red;
+    padding: 15px 120px;
+    border: 5px solid greenyellow;
+    margin: 20px;
+} */
+
+.container {
+    max-width: 70%;
+    margin: auto;
+}
+
+.bg-yellow {
+    background-color: #fff9dc;
+}
+
+.bg-green {
+    background-color: #e5ffe7;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2 {
+    margin-bottom: 30px;
+    color: rgb(35, 180, 144)
+}
+
+.list {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.list li {
+    color: rgb(23, 95, 158);
+    margin-bottom: 15px;
+}
+
+.table {
+   width: 100%;
+}
+
+.table td {
+    padding-bottom: 7px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color:rgb(31, 190, 190);
+}
+
+.contact {
+    text-align: right;
+}
+
+.tekh-pod label{
+    display: block;
+    font-size: 20px;
+    color: rgb(160, 45, 160)
+}
+
+.tekh-pod input {
+    width: 40%;
+    box-sizing: border-box;
+    color:rgb(5, 51, 253);
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: none;
+    font-family: inherit;
+    font-size: 19px;
+}
+
+.btn {
+    background-color: rgb(167, 255, 243);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0,7;
+    color: white;
+    background-color: black;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}

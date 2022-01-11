@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>HTML&CSS</title>
+        <meta charset = 'utf-8'>
+    </head>
+    <link rel="stylesheet" href="styles.css">
+
+    <body>
+        <div style="padding-top: 20px"></div>
+
+        <div class="container">
+            <div class="info">
+                <img src="C:\Users\79640\Pictures\Видеопроекты\Снимок экрана 2020-12-29 111136.png" alt="Х\еч\о фотки, нету" class="eagleimg">
+                    <h1>Моно Шляпник</h1>
+                    <p>Я основатель <b>YouTube</b></p>
+                    <p><b>Я путешествую по миру</b><u> в поиске приключений</u></p>
+
+                    <h4>Мои социальные сети</h4>
+                <a href="https://ru-ru.facebook.com/" target="blank">Facebook</a>
+                |
+                <a href="https://twitter.com/?lang=ru" target="blank">Twitter</a>
+            </div>
+        <!-- <img src="C:\Users\79640\Pictures\Видеопроекты\Снимок экрана 2020-12-29 111136.png" alt="Х\еч\о фотки, нету" height="240">
+        <h1>Моно Шляпник</h1>
+        <p><em>Я основатель <b>YouTube</b></em></p>
+        <p><b>Я путешествую по миру</b><u> в поиске приключений</u></p> -->
+
+        <div class="card bg-yellow">
+            <h2>Мои хобби</h2>
+            <ol class="list"><!-- создаем нумерованный список -->
+                <li>Первый элемент - нахожу разные шляпы</li>
+                <li>Второй элемент - побеждаю свой внтуренний страх</li>
+                <li>Третий элемент - охочусь на охотников</li>
+            </ol>
+        </div>
+
+        <div class="card bg-green">
+            <h2>Опыт работы :</h2>
+                <table class="table">
+                <thead>
+                    <tr>
+                        <th>Место работы</th>
+                        <th>Должность</th>
+                        <th>Года работы</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Company Osborn</td>
+                        <td>Frontend Engineer</td>
+                        <td>2010 - 2015</td>
+                    </tr>
+                    <tr>
+                        <td>Компания Microsoft</td>
+                        <td>Foolstarck разработчик</td>
+                        <td>2018 - now</td>
+                    </tr>
+                    <tr>
+                        <td>YouTube канал</td>
+                        <td>Blogger</td>
+                        <td>2020 - now</td>
+                    </tr>
+                </tbody>
+                </table>
+        </div>
+
+    <hr>
+        <div class="contact">
+            <h2>Связаться с техподдержкой</h2>
+                <form action="">
+                    <div class="tekh-pod">
+                        <label for="name">Ваше имя:</label>
+                        <input type = "text" id="name" placeholder="Введите ваше имя">
+                    </div>
+
+                    <div class="tekh-pod">
+                        <label for="email">Ваш email:</label>
+                        <input type = "email" id="email" placeholder="Введите ваш email">
+                    </div>
+
+                    <div class="tekh-pod">
+                        <label for="text">Ваше сообщение:</label>
+                        <textarea id="text" rows="7" cols="50"></textarea>
+                    </div>
+                    <input class="btn" type = "submit" value="Связаться">
+                </form>
+        </div>
+        </div>
+        <div style="margin-bottom: 500px;"></div>
+    </body>
+</html>
