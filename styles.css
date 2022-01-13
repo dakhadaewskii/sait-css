@@ -140,3 +140,19 @@ h1 {
         display: block;
     }
 }
+
+.htm {
+    border: 1px solid rgb(241, 255, 251);
+    width: 18%;
+    background-color: rgb(241, 255, 251);
+    list-style: none;
+    cursor: pointer;
+    text-align: left;
+    padding-left: 0;
+}
+
+.htm:hover {
+    opacity: 1;
+    color: white;
+    background-color: #eccbbd;
+}
